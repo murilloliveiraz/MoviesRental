@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{06
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{A3CA506C-EB30-4CB6-BFE1-F6EC02EAAF3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesRental.Core", "src\BuildingBlocks\Core\MoviesRental.Core.csproj", "{AF773116-DE9E-4303-AF84-6EAA369B3AC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesRental.Core", "src\BuildingBlocks\Core\MoviesRental.Core.csproj", "{AF773116-DE9E-4303-AF84-6EAA369B3AC2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{40FAB4BF-F648-462C-9390-3EACBD67CC08}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publisher", "Publisher", "{E148D5B1-4CE8-4831-8D00-CB37397A1D06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesRental.Consumer", "src\Services\Consumer\MoviesRental.Consumer\MoviesRental.Consumer.csproj", "{EE7AEB42-70FC-4CFE-B234-26DE842EACAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesRental.Consumer", "src\Services\Consumer\MoviesRental.Consumer\MoviesRental.Consumer.csproj", "{EE7AEB42-70FC-4CFE-B234-26DE842EACAD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D111D1A1-224A-4ED8-BA8E-D7026BEDFA8F}"
 EndProject
@@ -35,19 +35,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{AB253A7C-7790-45D1-ACCB-C5AAB410C6F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesRental.Domain", "src\Services\Publisher\Domain\MoviesRental.Domain\MoviesRental.Domain.csproj", "{021AD953-B090-49AA-A7C9-9F7B5AF51349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesRental.Domain", "src\Services\Publisher\Domain\MoviesRental.Domain\MoviesRental.Domain.csproj", "{021AD953-B090-49AA-A7C9-9F7B5AF51349}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesRental.Application", "src\Services\Publisher\Application\MoviesRental.Application\MoviesRental.Application.csproj", "{C7FDE350-482D-4E80-A6C3-EDB86294713D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesRental.Application", "src\Services\Publisher\Application\MoviesRental.Application\MoviesRental.Application.csproj", "{C7FDE350-482D-4E80-A6C3-EDB86294713D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesRental.Infraestructure", "src\Services\Publisher\Infraestructure\MoviesRental.Infraestructure\MoviesRental.Infraestructure.csproj", "{8CB39D1D-CA0C-48E9-9453-ACEEA74FC11C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesRental.Infraestructure", "src\Services\Publisher\Infraestructure\MoviesRental.Infraestructure\MoviesRental.Infraestructure.csproj", "{8CB39D1D-CA0C-48E9-9453-ACEEA74FC11C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesRental.WebAPI", "src\Services\Publisher\Presentation\MoviesRental.WebAPI\MoviesRental.WebAPI.csproj", "{4380D437-C6C0-4EB2-A7A2-7D584319692F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesRental.WebAPI", "src\Services\Publisher\Presentation\MoviesRental.WebAPI\MoviesRental.WebAPI.csproj", "{4380D437-C6C0-4EB2-A7A2-7D584319692F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesRental.Query.Application", "src\Shared\Queries\Application\MoviesRental.Query.Application\MoviesRental.Query.Application.csproj", "{3579DAAE-D0B0-4C88-B6B3-F34A619EB223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesRental.Query.Application", "src\Shared\Queries\Application\MoviesRental.Query.Application\MoviesRental.Query.Application.csproj", "{3579DAAE-D0B0-4C88-B6B3-F34A619EB223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesRental.Query.Domain", "src\Shared\Queries\Domain\MoviesRental.Query.Domain\MoviesRental.Query.Domain.csproj", "{F5B3D1CB-B951-488A-B2E5-C1A61D653F3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesRental.Query.Domain", "src\Shared\Queries\Domain\MoviesRental.Query.Domain\MoviesRental.Query.Domain.csproj", "{F5B3D1CB-B951-488A-B2E5-C1A61D653F3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesRental.Query.Infraestructure", "src\Shared\Queries\Infraestructure\MoviesRental.Query.Infraestructure\MoviesRental.Query.Infraestructure.csproj", "{687F2235-29DB-4953-B3E3-FD2595B1582E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesRental.Query.Infraestructure", "src\Shared\Queries\Infraestructure\MoviesRental.Query.Infraestructure\MoviesRental.Query.Infraestructure.csproj", "{687F2235-29DB-4953-B3E3-FD2595B1582E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
