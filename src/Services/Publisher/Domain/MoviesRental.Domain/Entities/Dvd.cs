@@ -124,7 +124,7 @@ namespace MoviesRental.Domain.Entities
         public void Delete(int copies)
         {
             if (!Available)
-                throw new DomainException($"DVD {Title} isn't available");
+                throw new DomainException($"DVD {Title} is already deleted");
 
             Available = false;
             Copies = 0;

@@ -11,9 +11,9 @@ namespace MoviesRental.Domain.Entities
             UpdateName(name);
             UpdateSurname(surname);
         }
-        public string Name { get; private set; }
         public const int MIN_LENGTH = 3;
         public const int MAX_LENGTH = 30;
+        public string Name { get; private set; }
         public string Surname { get; private set; }
         public List<Dvd> _dvds = new List<Dvd>();
         public IReadOnlyList<Dvd> Dvds => _dvds;
