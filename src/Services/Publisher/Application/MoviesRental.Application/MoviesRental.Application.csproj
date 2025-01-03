@@ -7,14 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Domain\MoviesRental.Domain\MoviesRental.Domain.csproj" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Dvds\Commands\ReturnDvd\" />
-    <Folder Include="Features\Dvds\Commands\RentDvd\" />
-    <Folder Include="Features\Dvds\Commands\DeleteDvd\" />
-    <Folder Include="Features\Dvds\Commands\UpdateDvd\" />
+    <ProjectReference Include="..\..\Domain\MoviesRental.Domain\MoviesRental.Domain.csproj" />
   </ItemGroup>
 
 </Project>

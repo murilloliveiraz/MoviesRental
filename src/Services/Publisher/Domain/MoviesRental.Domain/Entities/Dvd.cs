@@ -121,7 +121,7 @@ namespace MoviesRental.Domain.Entities
             UpdatedAt = DateTime.Now;
         }
 
-        public void Delete(int copies)
+        public void Delete()
         {
             if (!Available)
                 throw new DomainException($"DVD {Title} is already deleted");
