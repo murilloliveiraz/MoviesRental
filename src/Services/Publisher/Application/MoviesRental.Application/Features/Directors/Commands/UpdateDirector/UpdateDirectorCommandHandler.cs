@@ -1,6 +1,5 @@
 ﻿using MediatR;
 using MoviesRental.Application.Contracts;
-using MoviesRental.Application.Features.Directors.Commands.CreateDirector;
 
 namespace MoviesRental.Application.Features.Directors.Commands.UpdateDirector
 {
