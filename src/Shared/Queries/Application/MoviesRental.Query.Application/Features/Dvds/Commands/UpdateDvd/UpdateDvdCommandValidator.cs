@@ -1,11 +1,11 @@
 ﻿using FluentValidation;
 using MoviesRental.Core.ValidationMessages;
 
-namespace MoviesRental.Query.Application.Features.Dvds.Commands.CreateDvd
+namespace MoviesRental.Query.Application.Features.Dvds.Commands.UpdateDvd
 {
-    public class CreateDvdCommandValidator : AbstractValidator<CreateDvdCommand>
+    public class UpdateDvdCommandValidator : AbstractValidator<UpdateDvdCommand>
     {
-        public CreateDvdCommandValidator()
+        public UpdateDvdCommandValidator()
         {
             RuleFor(d => d.Id)
                 .NotEmpty().WithMessage(ValidationMessages.ERROR_MESSAGE);
@@ -16,13 +16,8 @@ namespace MoviesRental.Query.Application.Features.Dvds.Commands.CreateDvd
                 .LessThan(DateTime.Now).WithMessage(ValidationMessages.ERROR_MESSAGE);
             RuleFor(d => d.Genre)
                 .NotEmpty().WithMessage(ValidationMessages.EMPTY_STRING_ERROR_MESSAGE);
-            RuleFor(d => d.Available)
-                .Equal(true).WithMessage(ValidationMessages.ERROR_MESSAGE);
             RuleFor(d => d.Copies)
                 .GreaterThan(-1).WithMessage(ValidationMessages.ERROR_MESSAGE);
-            RuleFor(d => d.CreatedAt)
-                .NotEmpty().WithMessage(ValidationMessages.EMPTY_STRING_ERROR_MESSAGE)
-                .LessThan(DateTime.Now).WithMessage(ValidationMessages.ERROR_MESSAGE);
             RuleFor(d => d.UpdatedAt)
                 .NotEmpty().WithMessage(ValidationMessages.EMPTY_STRING_ERROR_MESSAGE)
                 .LessThan(DateTime.Now).WithMessage(ValidationMessages.ERROR_MESSAGE);

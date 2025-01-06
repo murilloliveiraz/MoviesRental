@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\BuildingBlocks\Core\MoviesRental.Core.csproj" />
+    <ProjectReference Include="..\..\..\..\Shared\Queries\Infraestructure\MoviesRental.Query.Infraestructure\MoviesRental.Query.Infraestructure.csproj" />
     <ProjectReference Include="..\..\Infraestructure\MoviesRental.Infraestructure\MoviesRental.Infraestructure.csproj" />
   </ItemGroup>
 

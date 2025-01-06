@@ -12,5 +12,5 @@ namespace MoviesRental.Query.Application.Features.Dvds.Commands.CreateDvd
         string DirectorId, 
         DateTime CreatedAt, 
         DateTime UpdatedAt
-        ) : IRequest<CreateDvdResponse>;
+        ) : IRequest<bool>;
 }

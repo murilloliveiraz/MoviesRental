@@ -10,7 +10,7 @@ namespace MoviesRental.Infraestructure
         public static IServiceCollection AddWriteInfraestructure(this IServiceCollection services)
         {
             services.AddScoped<MoviesRentalWriteContext>();
-            services.AddScoped<IDvdWriteRepository, IDvdWriteRepository>();
+            services.AddScoped<IDvdWriteRepository, DvdsWriteRepository>();
             services.AddScoped<IDirectorsWriteRepository, DirectorsWriteRepository>();
             return services;
         }
