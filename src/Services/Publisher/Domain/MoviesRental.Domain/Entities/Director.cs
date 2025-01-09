@@ -28,6 +28,7 @@ namespace MoviesRental.Domain.Entities
             if (!ValidateName(name))
                 throw new DomainException("Invalid name for director");
             Name = name;
+            UpdatedAt = DateTime.Now;
         }
 
         public void UpdateSurname(string surname)
@@ -35,6 +36,7 @@ namespace MoviesRental.Domain.Entities
             if (!ValidateName(surname))
                 throw new DomainException("Invalid surname for director");
             Surname = surname;
+            UpdatedAt = DateTime.Now;
         }
 
         public bool ValidateName(string value)

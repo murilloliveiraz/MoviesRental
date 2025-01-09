@@ -20,11 +20,9 @@ namespace MoviesRental.Infraestructure.Repositories
             return await _context.SaveChangesAsync() > 0;
         }
 
-        public async Task<bool> Delete(Guid Id)
-        {
-            await _context.Directors.Where(x => x.Id == Id).ExecuteDeleteAsync();
-            return await _context.SaveChangesAsync() > 0;
-        }
+        public async Task<bool> Delete(Guid Id) =>
+            await _context.Directors.Where(x => x.Id == Id).ExecuteDeleteAsync() > 0;
+ 
 
         public async Task<Director> Get(Guid Id)
         {

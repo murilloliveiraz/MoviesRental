@@ -7,7 +7,7 @@ namespace MoviesRental.Query.Infraestructure
 {
     public static class InfraestructureServiceCollection
     {
-        public static IServiceCollection AddWriteInfraestructure(this IServiceCollection services)
+        public static IServiceCollection AddReadInfraestructure(this IServiceCollection services)
         {
             services.AddScoped<IMoviesRentalReadContext, MoviesRentalReadContext>();
             services.AddScoped<IDvdQueryRepository, DvdsQueryRepository>();

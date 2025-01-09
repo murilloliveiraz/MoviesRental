@@ -1,6 +1,4 @@
-﻿using MediatR;
-
-namespace MoviesRental.Query.Application.Features.Dvds.Queries.GetDvd
+﻿namespace MoviesRental.Query.Application.Features.Dvds.Queries.GetDvd
 {
     public record GetDvdResponse(
         string Id,  
